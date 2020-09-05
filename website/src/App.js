@@ -3,6 +3,7 @@ import ReactDom from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import home from "./component/home.js";
 import about from "./component/about.js";
+import education from "./component/education";
 import experience from "./component/experience.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -26,10 +27,10 @@ const App = () => {
   return (
     <Router>
       <div className="narbox">
-        <nav className="navbar">
+        <nav className="navbarz">
           <ul>
             <li className="logo">
-              Yifei Li
+              Hello｜您好
             </li>
             <CSSTransition
               in={show}
@@ -37,11 +38,14 @@ const App = () => {
               classNames="list-transition"
               unmountOnExit>
               <div className="inside">
-                <li className="linkzz" id="js-links">
+              <li className="linkzz" id="js-links">
                   <Link to="/" className="navlinkz">Home</Link>
                 </li>
-                <li className="linkzz">
+                <li className="linkzz" id="js-links">
                   <Link to="/about" className="navlinkz">About me</Link>
+                </li>
+                <li className="linkzz">
+                  <Link to="/education" className="navlinkz">Education</Link>
                 </li>
                 <li className="linkzz">
                   <Link to="/experience" className="navlinkz">Experience</Link>
@@ -58,6 +62,7 @@ const App = () => {
         <Route exact path="/" component={home}/>
         <Route exact path="/experience" component={experience}/>
         <Route exact path="/about" component={about}/>
+        <Route exact path="/education" component={education}/>
         <Route/>
       </Switch>
     </Router>
