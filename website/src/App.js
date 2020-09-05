@@ -37,19 +37,19 @@ const App = () => {
               classNames="list-transition"
               unmountOnExit>
               <div className="inside">
-                <li className="links" id="js-links">
-                  <Link to="/" className="navlinks">Home</Link>
+                <li className="linkzz" id="js-links">
+                  <Link to="/" className="navlinkz">Home</Link>
                 </li>
-                <li className="links">
-                  <Link to="/about" className="navlinks">About me</Link>
+                <li className="linkzz">
+                  <Link to="/about" className="navlinkz">About me</Link>
                 </li>
-                <li className="links">
-                  <Link to="/experience" className="navlinks">Experience</Link>
+                <li className="linkzz">
+                  <Link to="/experience" className="navlinkz">Experience</Link>
                 </li>
               </div>
             </CSSTransition>
-            <li className="collapse" id="js-navbar-toggle" >
-              <FontAwesomeIcon icon={faBars} onClick={handleClick}/>
+            <li className="fontawesometoggle" id="js-navbar-toggle" >
+              <FontAwesomeIcon icon={faBars} onClick={handleClick} size="2x"/>
             </li>
           </ul>
         </nav>
