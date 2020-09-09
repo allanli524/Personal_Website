@@ -32,26 +32,28 @@ const App = () => {
             <li className="logo">
               Hello｜您好
             </li>
+            <ul className="overlayMenu">
             <CSSTransition
               in={show}
               timeout={300}
               classNames="list-transition"
               unmountOnExit>
               <div className="inside">
-              <li className="linkzz" id="js-links">
-                  <Link to="/" className="navlinkz">Home</Link>
-                </li>
-                <li className="linkzz" id="js-links">
-                  <Link to="/about" className="navlinkz">About me</Link>
-                </li>
-                <li className="linkzz">
-                  <Link to="/education" className="navlinkz">Education</Link>
-                </li>
-                <li className="linkzz">
-                  <Link to="/experience" className="navlinkz">Experience</Link>
-                </li>
+                  <li className="linkzz" id="js-links">
+                    <Link to="/" className="navlinkz">Home</Link>
+                  </li>
+                  <li className="linkzz">
+                    <Link to="/education" className="navlinkz">Education</Link>
+                  </li>
+                  <li className="linkzz">
+                    <Link to="/experience" className="navlinkz">Experience</Link>
+                  </li>
+                  <li className="linkzz" id="js-links">
+                    <Link to="/about" className="navlinkz">About me</Link>
+                  </li>
               </div>
             </CSSTransition>
+            </ul>
             <li className="fontawesometoggle" id="js-navbar-toggle" >
               <FontAwesomeIcon icon={faBars} onClick={handleClick} size="2x"/>
             </li>

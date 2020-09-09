@@ -1,11 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@539&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 img {
     width: 100%;
 }
 
+.interests{
+    font-family: 'Anton', sans-serif;
+    font-size: 4vw;
+}
+
+.selfintro{
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.pic{
+    width: 50%;
+    height: auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 10%;
+
+}
+.about_myself{
+    text-align: center;
+    width: 100%;
+    font-size: 4vw;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.selfintrop2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pic2{
+    width: 80%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
 .NameMe{
     text-align: center;
     padding-top: 10px;
     margin-bottom: 0;
+    font-size: 18vw;
 }
 
 .carousel{
@@ -26,5 +73,112 @@ img {
 
 .TitleMe{
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 10vw;
+}
+@media screen and (max-width: 600px) {
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+        background-image: url('./images/unnamed.png');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-color: rgb(3, 3, 56);
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+}
+
+.HomeComponent{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    font-family: 'Comfortaa', sans-serif;
+    margin:auto; 
+    position: absolute;
+    top: 25%; bottom: 10%;
+    right: 0; left: 0;
+
+    align-items: center;
+    color: rgb(182, 182, 181);
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.social{
+    cursor: pointer;
+}
+
+.about_body h1{
+    text-align: center;
+}
+
+.about_body{
+    color: rgb(182, 182, 181);
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* Education Section */
+
+.education_section{
+display: flex;
+align-items: center;
+justify-items: center;
+flex-direction: column;
+height: 100%;
+width: 100%;
+}
+
+.education_title{
+text-align: center;
+font-size: 8vw;
+color: rgb(221, 219, 219);
+margin: 0;
+top: 40%;
+}
+
+.breakln1{
+border: 1px white solid;
+width: 80%;
+}
+
+.edu-uoft{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0 5% 0;
+    color: rgb(221, 219, 219);
+    width: 90%;
+}
+
+.edu-osa{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0 5% 0;
+    color: rgb(221, 219, 219);
+    width: 90%;
+}
+
+.Edu-sec-title{
+    font-size: 4vw;
+    margin-left: 5%;
+}
+
+.Edu-sec-text{
+    font-size: 3vw;
+    margin-left: 5%;
+}
+
+.edu-main{
+    margin-top: 50%;
+    margin-bottom: 50%;
 }

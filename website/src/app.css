@@ -17,12 +17,13 @@
     
     body {
         font-family: 'Josefin Sans', sans-serif;
-        background-image: url('./images/unnamed.png');
+        background-image: url('./component/images/unnamed.png');
         background-size: cover;
         height: 100%;
         width: 100%;
         background-repeat: no-repeat;
-        background-color: rgb(3, 3, 56);
+        background-attachment: fixed;
+        background-color: rgb(15, 15, 15);
 
     }
     
@@ -32,7 +33,10 @@
         margin: 0;
         padding: 0;
         border: 0px;
+        position: relative;
     }
+
+    
     
     .navlinkz{
         text-decoration: none;
@@ -49,12 +53,21 @@
         text-align: center;
         padding-top: 4px;
         padding-bottom: 4px;
-        font-size: 24px;
+        font-size: 4vw;
     }
     
     .inside{
         padding-bottom: 7px;
         text-align: center;
+    }
+
+    .overlayMenu{
+        position: absolute;
+        top: 85%;
+        background-color: rgb(15, 15, 15);
+        right: 0;
+        z-index: 9;
+        width: 100%;
     }
     
     .navbar-toggle{
