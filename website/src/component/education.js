@@ -11,6 +11,7 @@ const education = () => {
                 <p className="education_title">Educational Background</p>
                 <hr className="breakln1"></hr>
             </div>
+            <p style={{color: "rgb(221, 219, 219)", fontSize: "2vw"}}>swipe down down for more . . .</p>
             <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid"}}></hr>
             <div className="edu-uoft">
                 <Image style={{width: "20%", border: "0.5px black solid", height: "40%"}} src="uoft.png" />
@@ -29,7 +30,7 @@ const education = () => {
                     <p className="Edu-sec-text">I attended OSA from 2016 to 2019. My interest in programming started here in a casual Grade 11 computer science class.</p>
                 </div>
             </div>
-            <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid"}}></hr>
+            <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid", marginBottom: "50%"}}></hr>
         </div>
     )
 }

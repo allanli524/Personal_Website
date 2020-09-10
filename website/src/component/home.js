@@ -23,8 +23,8 @@ const home = () => {
             <p className="TitleMe">Aspiring Software Developer</p>
             <hr className="breakln"></hr>
             <div className="contact">
-                <FontAwesomeIcon className="social" icon={faGithub} size="5x" onClick={() => {window.open("https://github.com/allanli524", "_blank")}}/>
-                <FontAwesomeIcon className="social" icon={faLinkedin} size="5x" onClick={() => {window.open("www.linkedin.com/in/yifeiallanli", "_blank")}}/>
+                <FontAwesomeIcon className="social" icon={faGithub} size="5x" onClick={() => {window.open("https://www.github.com/allanli524", "_blank")}}/>
+                <FontAwesomeIcon className="social" icon={faLinkedin} size="5x" onClick={() => {window.open("https://www.linkedin.com/in/yifeiallanli", "_blank")}}/>
                 <FontAwesomeIcon className="social" icon={faFacebookSquare} size="5x" onClick={() => {window.open("https://www.facebook.com/allan.li.100", "_blank")}}/>
                 <FontAwesomeIcon className="social" icon={faEnvelopeSquare} size="5x" onClick={CopyToBoard}/>
             </div>

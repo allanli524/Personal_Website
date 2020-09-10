@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@539&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
 img {
     width: 100%;
 }
@@ -13,7 +14,8 @@ img {
     height: auto;
     width: 100%;
     display: flex;
-    margin-top: 50px;
+    margin-top: 10%;
+    margin-bottom: 5%;
     flex-direction: column;
 
     align-items: center;
@@ -47,6 +49,7 @@ img {
     height: auto;
     position: relative;
     text-align: center;
+    margin: 20% 0 20% 0;
 }
 .NameMe{
     text-align: center;
@@ -137,6 +140,7 @@ justify-items: center;
 flex-direction: column;
 height: 100%;
 width: 100%;
+font-family: 'Baloo Tammudu 2', sans-serif;
 }
 
 .education_title{
@@ -155,7 +159,7 @@ width: 80%;
 .edu-uoft{
     display: flex;
     flex-direction: row;
-    margin: 5% 0 5% 0;
+    margin: 20% 0 20% 0;
     color: rgb(221, 219, 219);
     width: 90%;
 }
@@ -163,7 +167,7 @@ width: 80%;
 .edu-osa{
     display: flex;
     flex-direction: row;
-    margin: 5% 0 5% 0;
+    margin: 20% 0 20% 0;
     color: rgb(221, 219, 219);
     width: 90%;
 }
@@ -179,6 +183,62 @@ width: 80%;
 }
 
 .edu-main{
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: 60%;
+    margin-bottom: 60%;
+}
+
+/*Experience Section */
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Baloo Tammudu 2', sans-serif;
+}
+
+.exp_title{
+    margin: 60% 0 60% 0;
+}
+
+.exp_title_text{
+    font-size: 7vw;
+    color:rgb(221, 219, 219);
+}
+
+.exp_logo{
+    width: 35%;
+    margin: 5% 0 5% 0;
+}
+
+.exp_sec1{
+    margin: 0 5% 0 5%;
+    display:flex;
+    flex-direction: column;
+    color: rgb(221, 219, 219);
+}
+
+.exp_sec1_text{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.exp_sectitle{
+    font-size: 4vw;
+}
+
+.exp_sectext{
+    font-size: 3vw;
+}
+
+.exp_sec3{
+    margin: 0 5% 0 5%;
+    display:flex;
+    flex-direction: column;
+    color: rgb(221, 219, 219);
+    align-items: center;
+    margin: 10% 0 10% 0;
+    width: 90%;
 }

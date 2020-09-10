@@ -30,7 +30,7 @@ const App = () => {
         <nav className="navbarz">
           <ul>
             <li className="logo">
-              Hello｜您好
+            <Link style={{textDecoration: "none", color: "white", marginLeft: "2.5%"}}to="/">Hello｜您好</Link>
             </li>
             <ul className="overlayMenu">
             <CSSTransition
@@ -39,16 +39,16 @@ const App = () => {
               classNames="list-transition"
               unmountOnExit>
               <div className="inside">
-                  <li className="linkzz" id="js-links">
+                  <li className="linkzz" id="js-links" onClick={handleClick}>
                     <Link to="/" className="navlinkz">Home</Link>
                   </li>
-                  <li className="linkzz">
+                  <li className="linkzz" onClick={handleClick}>
                     <Link to="/education" className="navlinkz">Education</Link>
                   </li>
-                  <li className="linkzz">
+                  <li className="linkzz" onClick={handleClick}>
                     <Link to="/experience" className="navlinkz">Experience</Link>
                   </li>
-                  <li className="linkzz" id="js-links">
+                  <li className="linkzz" id="js-links" onClick={handleClick}>
                     <Link to="/about" className="navlinkz">About me</Link>
                   </li>
               </div>

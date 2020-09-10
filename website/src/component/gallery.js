@@ -9,18 +9,21 @@ const Gallery = () => {
         <Carousel>
             <Carousel.Item>
                 <img
-                src="https://picsum.photos/500/300?img=1"
-                alt="first slide"/>
+                src="about3.jpeg"
+                alt="first slide"
+                style={{height: "40vh"}}/>
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                src="https://picsum.photos/500/300?img=1"
-                alt="second slide"/>
+                src="about4.jpg"
+                alt="second slide"
+                style={{height: "40vh"}}/>
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                src="https://picsum.photos/500/300?img=1"
-                alt="third slide"/>
+                src="about2.jpg"
+                alt="third slide"
+                style={{height: "40vh"}}/>
             </Carousel.Item>
         </Carousel>
         </div>
