@@ -19,19 +19,30 @@ const App = () => {
     console.log('got here');
     setShow(!show);
     console.log(show);
-    // let mainNav = document.getElementById('js-links');
-
-    // mainNav.classList.toggle('active')
   }
 
   return (
     <Router>
       <div className="narbox">
         <nav className="navbarz">
-          <ul>
+          <ul className="container1">
             <li className="logo">
             <Link style={{textDecoration: "none", color: "white", marginLeft: "2.5%"}}to="/">Hello｜您好</Link>
             </li>
+            <ul className="horizontal_menu">
+              <li className="linkzz" id="js-links" onClick={handleClick}>
+                <Link to="/" className="navlinkz">Home</Link>
+              </li>
+              <li className="linkzz" onClick={handleClick}>
+                <Link to="/education" className="navlinkz">Education</Link>
+              </li>
+              <li className="linkzz" onClick={handleClick}>
+                <Link to="/experience" className="navlinkz">Experience</Link>
+              </li>
+              <li className="linkzz" id="js-links" onClick={handleClick}>
+                <Link to="/about" className="navlinkz">About me</Link>
+              </li>
+            </ul>
             <ul className="overlayMenu">
             <CSSTransition
               in={show}

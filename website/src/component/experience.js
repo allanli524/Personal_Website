@@ -14,6 +14,7 @@ const experience = () => {
             <p style={{color: "rgb(221, 219, 219)", fontSize: "2vw"}}>swipe down down for more . . .</p>
             <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid"}}></hr>
             <div className="exp_sec1">
+                <div style={{width: "95%"}}>
                 <Image className="exp_logo"src="logo.jpg"/>
                 <p className="exp_sectitle">Contract Software Developer (Internship)</p>
                 <p className="exp_sectext"> May 2020 - Present</p>
@@ -23,9 +24,10 @@ const experience = () => {
                     experience I learned and worked with React.JS, Express, React-Bootstrap, and other front-end dependencies to create
                     various web modules. 
                 </p>
+                </div>
                 <div style={{textAlign: "center"}}>
                     <p style={{fontSize: "2vw", marginTop: "10%"}}>* main page of default risk website *</p>
-                    <Image style={{margin: "0 0 10% 0"}}src="NEUHAUS.png"/>
+                    <Image style={{margin: "0 0 10% 0", width: "95%"}}src="NEUHAUS.png"/>
                 </div>
             </div>
             <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid"}}></hr>
@@ -42,7 +44,7 @@ const experience = () => {
                 </p>
                 <div style={{textAlign: "center"}}>
                     <p style={{fontSize: "2vw", marginTop: "10%"}}>*JSON location data recieved from BLE beacons via M5StickC*</p>
-                    <Image style={{marginBottom: "10%"}}src="JSONdataexample.png"/>
+                    <Image style={{marginBottom: "10%", width: "95%"}}src="JSONdataexample.png"/>
                 </div>
             </div>
             <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid"}}></hr>
@@ -57,7 +59,7 @@ const experience = () => {
                 </p>
                 <div style={{textAlign: "center"}}>
                     <p style={{fontSize: "2vw"}}>* graphic user interface of trading project, made with java swing *</p>
-                    <Image style={{width: "50%"}} src="tradeapp.png"/>
+                    <Image style={{width: "50%", marginBottom: "5%"}} src="tradeapp.png"/>
                 </div>
                 
             </div>

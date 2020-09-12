@@ -1,4 +1,5 @@
 @media screen and (max-width: 600px) {
+
     ul{
         list-style: none;
         margin-top: 0;
@@ -69,6 +70,10 @@
         z-index: 9;
         width: 100%;
     }
+
+    .horizontal_menu{
+        display: none;
+    }
     
     .navbar-toggle{
         position: absolute;
@@ -109,3 +114,98 @@
         transition: opacity 300ms, transform 300ms;
       }
     }
+
+@media screen and (min-width: 601px) {
+    ul{
+        list-style: none;
+        margin-top: 0;
+        padding: 0;
+    }
+    
+    *{
+        transition: 0.3s;
+    }
+    
+    .navbox{
+        box-sizing: border-box;
+        padding-top: 5px;
+        margin: 0;
+    }
+    
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+        background-image: url('../src/component/images/sky.jpg');
+        background-size: cover;
+        height: 6vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: rgb(15, 15, 15);
+
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .horizontal_menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60%;
+        margin-left: 10%;
+        align-items: center;
+    }
+    
+    .navbarz {
+        font-size: 18px;
+        background-color: rgb(15, 15, 15);
+        margin: 0;
+        padding: 0;
+        border: 0px;
+        position: relative;
+        height: 6vh;
+    }
+    
+    .logo{
+        color: white;
+        padding-bottom: 5px;
+        font-size: 3vw;
+        width: 20vw;
+    }
+
+    .linkzz {
+        text-align: center;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 2vw;
+    }
+
+    .navlinkz{
+        text-decoration: none;
+        color: white;
+    }
+
+    .overlayMenu{
+        display: none;
+    }
+    
+    .navbar-toggle{
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer; 
+        color: rgba(255,255,255,0.8);
+        font-size: 24px;
+    }
+    
+    .fontawesometoggle{
+        display: none;
+    
+    }
+}
