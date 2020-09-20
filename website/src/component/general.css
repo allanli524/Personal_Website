@@ -81,6 +81,23 @@ img {
     font-size: 10vw;
 }
 @media screen and (max-width: 600px) {
+
+    .HomeComponent{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 4;
+        font-family: 'Comfortaa', sans-serif;
+        margin:auto; 
+        position: absolute;
+        top: 25%; bottom: 10%;
+        right: 0; left: 0;
+    
+        align-items: center;
+        color: rgb(182, 182, 181);
+    }
+
     body {
         font-family: 'Josefin Sans', sans-serif;
         background-image: url('./images/unnamed.png');
@@ -93,22 +110,216 @@ img {
         left: 0;
         position: absolute;
     }
+
+    .edu-uoft{
+        display: flex;
+        flex-direction: row;
+        margin: 20% 0 20% 0;
+        color: rgb(221, 219, 219);
+        width: 95%;
+        background-color: rgba(128, 128, 128, 0.541);
+    }
+    
+    .edu-osa{
+        display: flex;
+        flex-direction: row;
+        margin: 20% 0 20% 0;
+        color: rgb(221, 219, 219);
+        width: 90%;
+        background-color: rgba(128, 128, 128, 0.541);
+    }
+    
+    .Edu-sec-title{
+        font-size: 5vw;
+        width: 100%;
+        margin: 10%;
+    }
+    
+    .Edu-sec-text{
+        font-size: 4vw;
+        margin: 10%;
+    }
+    
+    .edu-main{
+        margin-top: 60%;
+        margin-bottom: 60%;
+    }
+
+    .pic_osa{
+        width: 20%; 
+        border: 1px black solid;
+        height: 40%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .edu_divider{
+        width: 100%;
+        border: 1px rgb(221, 219, 219) solid;
+        margin-bottom: 50%;
+    }
 }
 
-.HomeComponent{
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 4;
-    font-family: 'Comfortaa', sans-serif;
-    margin:auto; 
-    position: absolute;
-    top: 25%; bottom: 10%;
-    right: 0; left: 0;
 
-    align-items: center;
-    color: rgb(182, 182, 181);
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1400px) {
+    
+    .HomeComponent{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 4;
+        font-family: 'Comfortaa', sans-serif;
+        margin:auto; 
+        position: absolute;
+        top: 10vh; bottom: 10%;
+        right: 0; left: 0;
+    
+        align-items: center;
+        color: rgb(182, 182, 181);
+    }
+
+    .NameMe{
+        font-size: 12vw;
+    }
+
+    .TitleMe{
+        font-size: 10vw;
+    }
+
+    .contact{
+        margin-bottom: 15%;
+    }
+
+    .edu-uoft{
+        display: flex;
+        flex-direction: row;
+        margin: 20% 0 20% 0;
+        color: rgb(221, 219, 219);
+        width: 75%;
+        background-color: rgba(128, 128, 128, 0.541);
+    }
+
+    .pic_osa{
+        width: 20%; 
+        border: 1px black solid;
+        height: 40%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    
+    .edu-osa{
+        display: flex;
+        flex-direction: row;
+        margin: 20% 0 20% 0;
+        color: rgb(221, 219, 219);
+        width: 75%;
+        background-color: rgba(128, 128, 128, 0.541);
+    }
+    
+    .Edu-sec-title{
+        font-size: 3vw;
+        width: 100%;
+        margin: 8%;
+    }
+    
+    .Edu-sec-text{
+        font-size: 2vw;
+        margin: 10%;
+    }
+    
+    .edu-main{
+        margin-top: 35vh;
+        margin-bottom: 35vh;
+    }
+
+    .edu_divider{
+        width: 100%;
+        border: 1px rgb(221, 219, 219) solid;
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (min-width: 1401px) {
+
+    .HomeComponent{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 4;
+        font-family: 'Comfortaa', sans-serif;
+        margin:auto; 
+        position: absolute;
+        top: 12vh; bottom: 10%;
+        right: 0; left: 0;
+    
+        align-items: center;
+        color: rgb(182, 182, 181);
+    }
+
+    .NameMe{
+        font-size: 10vw;
+    }
+
+    .TitleMe{
+        font-size: 8vw;
+    }
+
+    .contact{
+        margin-bottom: 15%;
+    }
+
+    .edu-uoft{
+        display: flex;
+        flex-direction: row;
+        margin: 20% 0 20% 0;
+        color: rgb(221, 219, 219);
+        width: 75%;
+        background-color: rgba(128, 128, 128, 0.541);
+    }
+
+    .pic_osa{
+        width: 20%; 
+        border: 1px black solid;
+        height: 40%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    
+    .edu-osa{
+        display: flex;
+        flex-direction: row;
+        margin: 20% 0 20% 0;
+        color: rgb(221, 219, 219);
+        width: 75%;
+        background-color: rgba(128, 128, 128, 0.541);
+    }
+    
+    .Edu-sec-title{
+        font-size: 3vw;
+        width: 100%;
+        margin: 8%;
+    }
+    
+    .Edu-sec-text{
+        font-size: 2vw;
+        margin: 10%;
+    }
+    
+    .edu-main{
+        margin-top: 35vh;
+        margin-bottom: 35vh;
+    }
+
+    .edu_divider{
+        width: 100%;
+        border: 1px rgb(221, 219, 219) solid;
+        margin-bottom: 20%;
+    }
 }
 
 .contact{
@@ -156,39 +367,7 @@ border: 1px white solid;
 width: 80%;
 }
 
-.edu-uoft{
-    display: flex;
-    flex-direction: row;
-    margin: 20% 0 20% 0;
-    color: rgb(221, 219, 219);
-    width: 95%;
-    background-color: rgba(128, 128, 128, 0.541);
-}
 
-.edu-osa{
-    display: flex;
-    flex-direction: row;
-    margin: 20% 0 20% 0;
-    color: rgb(221, 219, 219);
-    width: 90%;
-    background-color: rgba(128, 128, 128, 0.541);
-}
-
-.Edu-sec-title{
-    font-size: 5vw;
-    width: 100%;
-    margin: 10%;
-}
-
-.Edu-sec-text{
-    font-size: 4vw;
-    margin: 10%;
-}
-
-.edu-main{
-    margin-top: 60%;
-    margin-bottom: 60%;
-}
 
 /*Experience Section */
 
