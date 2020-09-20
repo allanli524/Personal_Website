@@ -1,6 +1,5 @@
 import React from "react";
 import "./general.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from "react-bootstrap/Image";
 
 const experience = () => {
@@ -26,7 +25,7 @@ const experience = () => {
                 </p>
                 </div>
                 <div style={{textAlign: "center"}}>
-                    <p style={{fontSize: "2vw", marginTop: "10%"}}>* main page of default risk website *</p>
+                    <p className="exp_img_text">* main page of default risk website *</p>
                     <Image style={{margin: "0 0 10% 0", width: "95%"}}src="NEUHAUS.png"/>
                 </div>
             </div>
@@ -43,27 +42,27 @@ const experience = () => {
                     Arduino programming language to synchronize M5StickC/ESP32 modules to the server to periodically update BLE beacon data.
                 </p>
                 <div style={{textAlign: "center"}}>
-                    <p style={{fontSize: "2vw", marginTop: "10%"}}>*JSON location data recieved from BLE beacons via M5StickC*</p>
+                    <p className="exp_img_text">*JSON location data recieved from BLE beacons via M5StickC*</p>
                     <Image style={{marginBottom: "10%", width: "95%"}}src="JSONdataexample.png"/>
                 </div>
             </div>
             <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid"}}></hr>
             <div className="exp_sec3">
                 <p className="exp_sectitle">Java Client Trading & Meetup Program</p>
-                <p className="exp_sectext">June - September 2020,  CSC 207 (Java programming and Clean Architecture Class - UofT</p>
-                <p className="exp_sectext"> Neuhaus Development is a Start-up company aimed at introducing new 
-                    network technology into the real estate market. 
-                    I have spent my time here working on a website development project, 
-                    I worked mainly with ReactJS with the support of Express and React-Bootstrap 
-                    to develop various interactive web components.
+                <p className="exp_sectext">June - September 2020</p>
+                    <p className="exp_sectext">CSC 207 (Java programming and Clean Architecture Class - UofT</p>
+                <p className="exp_sectext"> This is the first extensive Java project I have worked on. Along with six other group members, we 
+                constructed this trading and meetup graphic interface with over 60 classes. We followed principles of Clean Architecture and 
+                we implemented various design patterns such as the Iterator and Factory pattern to improve the efficiency of this application. 
+                Although we did not publish this project on any platforms, this experience has taught me how to build a multilayer application.
                 </p>
                 <div style={{textAlign: "center"}}>
-                    <p style={{fontSize: "2vw"}}>* graphic user interface of trading project, made with java swing *</p>
+                    <p className="exp_img_text">* graphic user interface of trading project, made with java swing *</p>
                     <Image style={{width: "50%", marginBottom: "5%"}} src="tradeapp.png"/>
                 </div>
                 
             </div>
-            <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid", marginBottom: "50%"}}></hr>
+            <hr className="edu_divider"></hr>
         </div>
     )
 }

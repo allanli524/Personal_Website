@@ -115,6 +115,38 @@
       }
     }
 
+@media screen and (min-width: 601px) and (max-width: 1400px) {
+    .linkzz {
+        text-align: center;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 2vw;
+    }
+
+    .logo{
+        color: white;
+        padding-bottom: 5px;
+        font-size: 3vw;
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 1401px) {
+    .linkzz {
+        text-align: center;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 1.5vw;
+    }
+
+    .logo{
+        color: white;
+        padding-bottom: 5px;
+        font-size: 2.5vw;
+        width: 20vw;
+    }
+}
+
 @media screen and (min-width: 601px) {
     ul{
         list-style: none;
@@ -170,20 +202,6 @@
         border: 0px;
         position: relative;
         height: 6vh;
-    }
-    
-    .logo{
-        color: white;
-        padding-bottom: 5px;
-        font-size: 3vw;
-        width: 20vw;
-    }
-
-    .linkzz {
-        text-align: center;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        font-size: 2vw;
     }
 
     .navlinkz{
