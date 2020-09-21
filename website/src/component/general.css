@@ -5,11 +5,6 @@ img {
     width: 100%;
 }
 
-.interests{
-    font-family: 'Anton', sans-serif;
-    font-size: 4vw;
-}
-
 .selfintro{
     height: auto;
     width: 100%;
@@ -29,20 +24,6 @@ img {
     margin-top: 10%;
 
 }
-.about_myself{
-    text-align: center;
-    width: 100%;
-    font-size: 4vw;
-    padding-right: 10%;
-    padding-left: 10%;
-}
-
-.selfintrop2{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 
 .pic2{
     width: 80%;
@@ -56,11 +37,6 @@ img {
     padding-top: 10px;
     margin-bottom: 0;
     font-size: 18vw;
-}
-
-.carousel{
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
 }
 
 .breakln{
@@ -80,6 +56,13 @@ img {
     margin-bottom: 20px;
     font-size: 10vw;
 }
+
+@media screen and (max-width: 350px) {
+    .social {
+        font-size: 20vw;
+    }
+}
+
 @media screen and (max-width: 600px) {
 
     .HomeComponent{
@@ -96,6 +79,18 @@ img {
     
         align-items: center;
         color: rgb(182, 182, 181);
+    }
+
+    .NameMe{
+        font-size: 20vw;
+    }
+
+    .TitleMe{
+        font-size: 10vw;
+    }
+
+    .contact{
+        margin-bottom: 15%;
     }
 
     body {
@@ -215,11 +210,40 @@ img {
         font-size: 3vw;
         margin-top: 5%;
     }
+
+    .carousel{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+
+    .about-carousel-container{
+        margin: 20vh 0 20vh 0;
+    }
+
+    .about-sec-title{
+        font-size: 8vw;
+    }
+
+    .about_myself{
+        text-align: center;
+        width: 100%;
+        font-size: 4vw;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .selfintrop2{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .interests{
+        font-family: 'Anton', sans-serif;
+        font-size: 4vw;
+    }
 }
-
-
-
-
 
 @media screen and (min-width: 601px) and (max-width: 1400px) {
     
@@ -237,18 +261,6 @@ img {
     
         align-items: center;
         color: rgb(182, 182, 181);
-    }
-
-    .NameMe{
-        font-size: 12vw;
-    }
-
-    .TitleMe{
-        font-size: 10vw;
-    }
-
-    .contact{
-        margin-bottom: 15%;
     }
 
     .edu-uoft{
@@ -355,6 +367,76 @@ img {
         font-size: 3vw;
         margin-top: 5%;
     }
+
+    .carousel{
+        border: 2px solid black;
+    }
+
+    .about-sec1{
+        width: 85%;
+    }
+
+    .about-sec-title{
+        font-size: 5vw;
+    }
+
+    .about_myself{
+        text-align: center;
+        width: 80%;
+        font-size: 3vw;
+        margin: 0 10% 5% 10%;
+        background-color:rgba(128, 128, 128, 0.541);
+    }
+
+    .selfintrop2{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .interests{
+        font-family: 'Anton', sans-serif;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px){
+    .about-carousel-container{
+        margin: 20vh 10vw 20vh 10vw;
+    }
+
+    .NameMe{
+        font-size: 12vw;
+        margin: 5% 0 5% 0;
+    }
+
+    .TitleMe{
+        font-size: 10vw;
+    }
+
+    .contact{
+        margin: 10% 0 15% 0;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1400px){
+    .about-carousel-container{
+        margin: 20vh 20vw 20vh 20vw;
+    }
+
+    .NameMe{
+        font-size: 12vw;
+    }
+
+    .TitleMe{
+        font-size: 10vw;
+    }
+
+    .contact{
+        margin: 5% 0 15% 0;
+    }
 }
 
 @media screen and (min-width: 1401px) {
@@ -384,7 +466,7 @@ img {
     }
 
     .contact{
-        margin-bottom: 15%;
+        margin: 2.5% 0 15% 0;
     }
 
     .edu-uoft{
@@ -492,13 +574,49 @@ img {
         font-size: 1vw;
         margin-top: 5%;
     }
+
+    .carousel{
+        border: 2px solid black;
+    }
+
+    .about-carousel-container{
+        margin: 20vh 25vw 20vh 25vw;
+    }
+
+    .about-sec1{
+        width: 75%;
+    }
+
+    .about-sec-title{
+        font-size: 3vw;
+    }
+
+    .about_myself{
+        text-align: center;
+        width: 80%;
+        font-size: 2vw;
+        margin: 0 10% 7% 10%;
+        background-color:rgba(128, 128, 128, 0.541);
+    }
+
+    .selfintrop2{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 65%;
+    }
+
+    .interests{
+        font-family: 'Anton', sans-serif;
+        font-size: 2vw;
+    }
 }
 
 .contact{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    margin-top: 25px;
 }
 
 .social{
@@ -512,6 +630,9 @@ img {
 .about_body{
     color: rgb(182, 182, 181);
     font-family: 'Comfortaa', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Education Section */
