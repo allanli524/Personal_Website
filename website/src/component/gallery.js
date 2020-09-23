@@ -8,22 +8,19 @@ const Gallery = () => {
         <div className="carousel">
         <Carousel>
             <Carousel.Item>
-                <img
+                <img className="carousel-img"
                 src="about3.jpeg"
-                alt="first slide"
-                style={{height: "40vh"}}/>
+                alt="first slide"/>
             </Carousel.Item>
             <Carousel.Item>
-                <img
+                <img className="carousel-img"
                 src="about4.jpg"
-                alt="second slide"
-                style={{height: "40vh"}}/>
+                alt="second slide"/>
             </Carousel.Item>
             <Carousel.Item>
-                <img
+                <img className="carousel-img"
                 src="about2.jpg"
-                alt="third slide"
-                style={{height: "40vh"}}/>
+                alt="third slide"/>
             </Carousel.Item>
         </Carousel>
         </div>
