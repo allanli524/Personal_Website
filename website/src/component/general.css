@@ -225,6 +225,9 @@ img {
 
     .about-carousel-container{
         margin: 20vh 0 20vh 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .about-sec-title{
@@ -376,13 +379,13 @@ img {
     }
 
     .carousel{
-        width: 70vw;
-        height: 50vw;
+        width: 50vw;
+        height: 30vw;
     }
 
     .carousel-img{
-        height: 50vw;
-        width: 70vw;
+        height: 30vw;
+        width: 50vw;
         border: 2px solid black;
     }
 
@@ -441,7 +444,10 @@ img {
 
 @media screen and (min-width: 1001px) and (max-width: 1400px){
     .about-carousel-container{
-        margin: 20vh 20vw 20vh 20vw;
+        margin: 20vh 0 20vh 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .NameMe{
@@ -605,7 +611,10 @@ img {
     }
 
     .about-carousel-container{
-        margin: 20vh 25vw 20vh 25vw;
+        margin: 20vh 0 20vh 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .about-sec1{
