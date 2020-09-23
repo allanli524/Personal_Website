@@ -4,8 +4,6 @@ import "./general.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
-import { Link } from "react-router-dom";
-import { text } from "@fortawesome/fontawesome-svg-core";
 
 const home = () => {
 

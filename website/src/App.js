@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import ReactDom from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import home from "./component/home.js";
 import about from "./component/about.js";
