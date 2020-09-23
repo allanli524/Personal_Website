@@ -44,6 +44,9 @@ const about = () => {
                 </div>
                 <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid", marginBottom: "20%"}}></hr>
             </div>
+            <div>
+                <p>hi</p>
+            </div>
         </div>
         </div>
     )
