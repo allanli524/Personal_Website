@@ -15,17 +15,17 @@ const about = () => {
             <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid"}}></hr>
             <hr></hr>
             <div className="about-sec1">
-                <p className="about-sec-title" style={{textAlign:"center", margin:"10% 0 10% 0"}}>A little about myself . . .</p>
+                <p className="about-sec-title" style={{textAlign:"center"}}>A little about myself . . .</p>
                 <hr style={{width: "80%", border: "1px rgb(221, 219, 219) solid"}}></hr>
                 <div className="selfintro">
-                    <p className="about_myself">"In order to be not replaced by robots, you must learn how to program them. I hear that a lot myself, however, the reason
-                    I am pursuing computer sciences is because of the joy from problem-solving and overall being in control of what I am doing." </p>
+                    <p className="about_myself">"In order to be not replaced by robots, you must learn how to program them." I hear that a lot myself, however, the reason
+                    I am pursuing computer sciences is because of the joy from problem-solving and overall being in control of what I am doing. </p>
                     <hr style={{width: "80%", border: "1px rgb(221, 219, 219) solid"}}></hr>
-                    <div>
+                    <div className="about_picme">
                         <Image src='myself.jpg' className="pic"/>
                         <Image src='myselfcopy.jpg' className="pic"/>
                     </div>
-                    <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid", marginTop: "20%"}}></hr>
+                    <hr style={{width: "100%", border: "1px rgb(221, 219, 219) solid", marginTop: "10vh"}}></hr>
                 </div>
             </div>
             <div className="selfintrop2">

@@ -65,7 +65,7 @@ const App = () => {
             </CSSTransition>
             </ul>
             <li className="fontawesometoggle" id="js-navbar-toggle" >
-              <FontAwesomeIcon icon={faBars} onClick={handleClick} size="2x"/>
+              <FontAwesomeIcon icon={faBars} onClick={handleClick}/>
             </li>
           </ul>
         </nav>
