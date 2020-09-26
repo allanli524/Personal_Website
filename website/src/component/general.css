@@ -732,22 +732,32 @@ img {
     }
 
     .pic_uoft{
-        width:25%;
+        width:20%;
+        border: 0.5px black solid;
+        height: 35%;
+        margin: 5%;
+    }
+
+    .pic_osa{
+        width:15%;
         border: 0.5px black solid;
         height: 40%;
         margin: 5%;
     }
 
-    .pic_osa{
-        width: 20%; 
-        border: 1px black solid;
-        height: 40%;
-        margin-top: 10%;
-        margin-left: 5%;
+    .pic_uoft{
+        width:20%;
+        border: 0.5px black solid;
+        height: 35%;
+        margin: 5%;
     }
 
-    .pic_uoft{
-        margin-bottom: 5%;
+    .education_title{
+        text-align: center;
+        font-size: 80px;
+        color: rgb(221, 219, 219);
+        margin: 0;
+        top: 40%;
     }
     
     .edu-osa{
@@ -760,14 +770,14 @@ img {
     }
     
     .Edu-sec-title{
-        font-size: 3vw;
+        font-size: 22px;
         width: 100%;
-        margin: 8%;
+        margin: 4vh;
     }
     
     .Edu-sec-text{
-        font-size: 2vw;
-        margin: 10%;
+        font-size: 18px;
+        margin: 3vh;
     }
     
     .edu-main{
